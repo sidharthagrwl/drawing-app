@@ -48,6 +48,8 @@ canvas.addEventListener('mousedown', (e) => {
     startY = e.clientY;
 });
 
+
+
 canvas.addEventListener('mouseup', e => {
     isPainting = false;
     ctx.stroke();
